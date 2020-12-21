@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const { deleteTour } = require('../controllers/tourController');
 
 const tourSchema = new mongoose.Schema({
   name: {
@@ -50,6 +49,7 @@ const tourSchema = new mongoose.Schema({
   createdAt: {
     type: Date,
     default: Date.now(),
+    select: false,
   },
   startDates: [Date],
 });
