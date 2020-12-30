@@ -28,7 +28,7 @@ const reviewSchema = new mongoose.Schema(
     },
   },
   {
-    // will make sure that when we have a virtual property (a field that is not stored in the database but calculated using some other value) that it also shows up whenever there is an output)
+    // will make sure that when theres a virtual property (a field that is not stored in the database but calculated using some other value) that it also shows up whenever there is an output
     toJSON: { virtuals: true },
     toObject: { virtuals: true },
   }
