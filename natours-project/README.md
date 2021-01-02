@@ -1,4 +1,4 @@
-Natours Project- Building and consuming a RESTful API
+# Natours App- Building and consuming a RESTful API
 
-    Tech stack used;
-    Node.js, Express, MongoDB and Mongoose
+Technolgies used;
+Node.js, Express, MongoDB and Mongoose
